@@ -1,5 +1,23 @@
 desc: EGO POWER+ products
 url: https://egopowerplus.com/
+
+docs:
+  intro: |
+    ## Third-party model attribution
+
+    The `battery-7_5` geometry is not an EGO-supplied CAD model. It is the
+    "Ego Battery 7.5AH" model by **maltvat** (`altvaterm` in the STEP header),
+    published on Printables on 2023-07-27 and used here under the
+    [Creative Commons Attribution (CC BY)](https://creativecommons.org/licenses/by/4.0/)
+    license it was released under.
+
+    - Source: <https://www.printables.com/model/537383-ego-battery-75ah>
+    - Authored in Autodesk Inventor 2023, exported via ST-DEVELOPER v19.2.
+
+    The file is vendored here verbatim, in the author's own coordinate frame.
+    EGO POWER+ is a trademark of its owner and is named here only to identify
+    the product the model depicts.
+
 parts:
   battery-7_5:
     type: step
@@ -7,3 +25,6 @@ parts:
     vendor: ego
     sku: BA4200T
     url: https://egopowerplus.com/battery-7-5amp-fuel-gauge/
+    # Model by maltvat, https://www.printables.com/model/537383-ego-battery-75ah
+    author: maltvat (Printables)
+    license: CC-BY
